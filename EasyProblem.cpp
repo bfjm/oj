@@ -10,7 +10,7 @@ int main()
 		int n,m,x,y;
 		while(scanf("%d%d",&n,&m)==2)
 		{
-				a.clear();
+				a.clear();//每次使用清零
 				for(int i=0;i<n;i++)
 				{
 						scanf("%d",&x);
